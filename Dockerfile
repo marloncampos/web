@@ -8,7 +8,7 @@ ADD . /go/src/github.com/marloncampos/web
 # Build the web command inside the container.
 # (You may fetch or manage dependencies here,
 # either manually or with a tool like "godep".)
-RUN go install github.com/marlcampos/web
+RUN go install github.com/marloncampos/web
 
 # Run the web command by default when the container starts.
 ENTRYPOINT /go/bin/web
